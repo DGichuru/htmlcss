@@ -155,12 +155,13 @@ nav ul li a{
 }
 .card__container {
   display: grid;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
   justify-items: center;
   color: white;
+  
 }
 .card__content {
   width: 90%;
@@ -192,5 +193,15 @@ nav ul li a{
   font-weight: bold;
   cursor: pointer;
   border: none;
-  margin: 50px auto;
+  margin: 60px auto ;
+  
+}
+
+.card__button:hover{
+    cursor: pointer;
+    background: aqua;
+    color: #000;
+}
+h2{
+    color: white;
 }
