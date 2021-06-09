@@ -11,12 +11,12 @@
     <div class="loginbox">
         <img src="assets/images.jpg" class="avatar">
         <h1>Log In</h1>
-        <form>
+        <form action="login.php" method="POST"   id="loginform">
             <p>Username</p>
-            <input type="text" name="" placeholder="Enter Email">
+            <input type="text" name="email" id="email" placeholder="Enter Email">
             <p>Password</p>
-            <input type="password" name="" placeholder="Enter Reg. No">
-            <input type="submit" name="" value="Log In">
+            <input type="password" name="pass" id="password" placeholder="Enter Reg. No">
+            <input type="submit"  onClick="login.php ='home.html'" name="add_detail" class="btn" value="Log In">
         </form>
 
     </div>
